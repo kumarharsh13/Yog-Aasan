@@ -115,6 +115,7 @@ body {
 
 .section-hero {
     padding: 0 0 4.8rem 0;
+    margin-bottom: 4.8rem;
 }
 
 .section-hero::before {
@@ -212,7 +213,7 @@ body {
 /* Training Section */
 /* ***************************** */
 
-.training {
+.section-training {
     padding: 0 0 9.6rem 0;
     position: relative;
     margin-bottom: 4.8rem;
@@ -234,7 +235,7 @@ body {
     color: #0093df;
 }
 
-.training::before {
+.section-training::before {
     content: "";
     position: absolute;
     background: url('../Images/Pose/bg-image.jpg') no-repeat center center/cover;
@@ -300,7 +301,9 @@ body {
 /* Training Section */
 /* ***************************** */
 
-.about {}
+.section-about {
+    margin-bottom: 9.6rem;
+}
 
 .about-container {
     display: flex;
@@ -335,4 +338,126 @@ body {
 .about-description {
     font-size: 1.6rem;
     line-height: 1.2;
+}
+
+/* ***************************** */
+/* Testimonial Section */
+/* ***************************** */
+
+.section-testimonial {
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+    margin-bottom: 4.8rem;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+}
+
+.testimonial-container {
+    padding: 9.6rem;
+}
+
+.testimonials-text {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.testimonial-img {
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+}
+
+.testimonial-name {
+    font-size: 1.6rem;
+    color: #6f6f6f;
+}
+
+
+/* ***************************** */
+/* Gallery Design */
+/* ***************************** */
+
+.gallery-img-1 {
+    grid-area: img-1;
+}
+
+.gallery-img-2 {
+    grid-area: img-2;
+}
+
+.gallery-img-3 {
+    grid-area: img-3;
+}
+
+.gallery-img-4 {
+    grid-area: img-4;
+}
+
+.gallery-img-5 {
+    grid-area: img-5;
+}
+
+.gallery-img-6 {
+    grid-area: img-6;
+}
+
+.gallery-img-7 {
+    grid-area: img-7;
+}
+
+.gallery-img-8 {
+    grid-area: img-8;
+}
+
+.gallery-img-9 {
+    grid-area: img-9;
+}
+
+.gallery-img-10 {
+    grid-area: img-10;
+}
+
+.gallery-view {
+    padding: 6.4rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-areas:
+        'img-1 img-2 img-3'
+        'img-4 img-9 img-3'
+        'img-4 img-5 img-5'
+        'img-7 img-5 img-5'
+        'img-6 img-8 img-10';
+    background-color: #fff;
+    gap: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0rem 0rem 4.8rem rgba(0, 0, 0, 0.75);
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+    border-radius: 20px;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-img {
+    width: 100%;
 }
