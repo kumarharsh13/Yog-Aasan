@@ -511,3 +511,56 @@ body {
     width: 100%;
     opacity: 0.6;
 }
+
+/* ***************************** */
+/* Pricing Section */
+/* ***************************** */
+
+.section-pricing {
+    margin-bottom: 9.6rem;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing-container {
+    padding: 2.4rem;
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+.pricing-container .sub-heading {
+    text-align: center;
+}
+
+
+.features {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.plan-price span {
+    font-weight: 600;
+    font-size: 2.4rem;
+    font-style: italic;
+    margin-right: 0.8rem;
+}
+
+.list-icon {
+    color: #0093df;
+    padding-right: 0.5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.sign-up {
+    text-align: center;
+}
