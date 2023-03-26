@@ -279,8 +279,6 @@ body {
     position: relative;
 }
 
-.training-card-img {}
-
 .training-img {
     width: 100%;
 }
@@ -313,8 +311,6 @@ body {
     align-items: center;
 }
 
-.about-img-box {}
-
 .about-img {
     padding: 0 0 4.8rem 8.2rem;
     width: 100%;
@@ -328,8 +324,6 @@ body {
     padding: 0 9.6rem 0 4.8rem;
     margin-top: -4.8rem;
 }
-
-.about-card {}
 
 .heading-teritary {
     font-size: 3rem;
@@ -570,7 +564,7 @@ body {
 /* ***************************** */
 
 .section-cta {
-    padding: 4.8rem 0 12.8rem 0;
+    padding: 4.8rem 0 2.8rem 0;
     margin-bottom: 9.6rem;
 }
 
@@ -644,4 +638,104 @@ body {
 .cta *:focus {
     outline: none;
     box-shadow: 0 0 0 0.8rem #fdf2e98e;
+}
+
+/**************************************/
+/* Call to Footer Section */
+/**************************************/
+
+.footer {
+    padding: 2.8rem 0 0 2.8rem;
+    border-top: 1px solid #ddd;
+    background-color: black;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.grid--footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    color: #ddd;
+}
+
+.footer-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:active {
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #0093df;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.address {
+    margin-bottom: 2.4rem;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 3.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+.credit {
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    padding: 1.8rem;
+}
+
+.credit span {
+    color: red;
+    font-size: 2.8rem;
 }
