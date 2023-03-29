@@ -510,7 +510,7 @@ body {
 .pricing-container {
     padding: 2.4rem;
     border-radius: 10px;
-    box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem 0.05rem 1.25rem rgba(0, 0, 0, 0.1);
 }
 
 .pricing-container .sub-heading {
